@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KeerthiMangoYard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f5f0;
+            color: #4d4d4d;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 20px 40px;
+            background-color: #388e3c;
+            color: white;
+            position: relative;
+        }
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+            text-align: left;
+        }
+        header p {
+            font-size: 18px;
+            text-align: left;
+            margin-top: 10px;
+        }
+        header .call-us,
+        header .email-us {
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            position: absolute;
+            top: 20px;
+        }
+        header .call-us {
+            right: 20px;
+        }
+        header .email-us {
+            right: 20px;
+            top: 50px;
+        }
+        .hero {
+            background-image: url('images/mango-hero.jpg');
+            background-size: cover;
+            height: 400px;
+            color: white;
+            text-align: center;
+            padding-top: 150px;
+            font-size: 40px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .section-title {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .mango-info {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .mango-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            margin: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+        .mango-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact-form input:hover,
+        .contact-form textarea:hover {
+            border-color: #ffcc00;
+        }
+        .contact-form button {
+            background-color: #ffcc00;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #e6b800;
+        }
+        .contact-details {
+            margin-top: 30px;
+            font-size: 18px;
+            text-align: left;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .contact-details p {
+            margin: 10px 0;
+        }
+        .contact-details .phone-number {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .contact-details .hours {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        /* Remove dots in the Other Mango Varieties section */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="call-us">
+            Call Us: <span class="phone-number">+91 8754157678</span>
+        </div>
+        <div class="email-us">
+            Email: <span>keerthimangoyard@gmail.com</span>
+        </div>
+        <h1>KeerthiMangoYard</h1>
+        <p>Your one-stop destination for all things mango!</p>
+    </header>
+
+    <!-- About Us Section -->
+    <div class="container">
+        <h2 class="section-title">About Us</h2>
+        <p>Welcome to KeerthiMangoYard! We are a passionate team of mango lovers dedicated to bringing you the finest, freshest mangoes from our farm to your table. Our mangoes are hand-picked with love, ensuring quality and flavor in every bite. We’re connecting global food buyers and sellers on a single platform, making wholesale procurement simple and secure. KeerthiMangoYard was founded in Bangarupalyam, Chittoor, Andhra Pradesh in 2002, creating a B2B e-Marketplace for the food industry.</p>
+    </div>
+
+    <!-- Mango Varieties We Offer Section -->
+    <div class="container">
+        <h2 class="section-title">Mango Varieties We Offer</h2>
+        <p>Explore our wide range of premium mangoes, each carefully selected to offer the best in taste, texture, and aroma. We pride ourselves in offering only the finest mango varieties for every need.</p>
+
+        <div class="mango-info">
+            <div class="mango-card">
+                <img src="images/banganapalli.jpg" alt="Banganapalli Mango">
+                <h3>Banganapalli Mango</h3>
+                <p>The king of mangoes! Known for its rich, sweet flavor and smooth texture.</p>
+            </div>
+            <div class="mango-card">
+                <img src="images/totapuri.jpg" alt="Totapuri Mango">
+                <h3>Totapuri Mango</h3>
+                <p>Sweet and tangy flavor suited for fresh and cooked preparations. Can be consumed in its green, slightly young stage, and mature state.</p>
+            </div>
+            <div class="mango-card">
+                <img src="images/sindhura.jpg" alt="Sindhura Mango">
+                <h3>Sindhura Mango</h3>
+                <p>A juicy and smooth mango with minimal fiber, perfect for smoothies and desserts.</p>
+            </div>
+            <div class="mango-card">
+                <img src="images/neelam.jpg" alt="Neelam Mango">
+                <h3>Neelam Mango</h3>
+                <p>Rich flavor and floral fragrance, a popular choice for desserts, juices, and smoothies.</p>
+            </div>
+            <div class="mango-card">
+                <img src="images/mallika.jpg" alt="Mallika Mango">
+                <h3>Mallika Mango</h3>
+                <p>Intensely sweet, with a distinct citrusy flavor and hints of melon and honey. Known for its smooth, fiberless texture.</p>
+            </div>
+            <div class="mango-card">
+                <img src="images/rumani.jpg" alt="Rumani Mango">
+                <h3>Rumani Mango</h3>
+                <p>Pulp is sweet, juicy, and low in fiber, high in vitamins A and C.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Other Mango Varieties Section -->
+    <div class="container">
+        <h2 class="section-title">Other Mango Varieties</h2>
+        <p>In addition to our premium varieties, we also offer a few more unique and delicious mango types, perfect for a variety of uses and tastes.</p>
+        <p>From the Land of Mangoes, we come with one vision in mind: “To deliver the natural source of Mangoes in its purest form to all.” KeerthiMangoYard connects the celebrated orchards of South India to the world by delivering delicious mangoes in their pristine natural form. Embrace your every day with Mangoes blended with the right ingredients to curate a healthy diet that tastes great!</p>
+        <p>The following mango varieties are also part of our selection:</p>
+        <ul>
+            <li>Imam Pasand</li>
+            <li>Malgova</li>
+            <li>Kalapadi</li>
+        </ul>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <p>Have any questions or want to get in touch with us? Fill out the form below, and we'll get back to you as soon as possible!</p>
+
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 KeerthiMangoYard | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
